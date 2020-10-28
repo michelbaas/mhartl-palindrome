@@ -1,15 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
 
 h1 {
+  align-self: center;
   font-family: 'Titillium Web', sans-serif;
-  font-weight: bold;
-  color: rgb(84,45,146);
+  font-weight: 700;
+  color: white;
   font-size: 4.5em;
 }
 
-#placeholder {
-  display: grid;
-  align-content: center;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  background-color: rgb(84,45,146);
+  border-radius: 50%;
+  width: 19.5em;
+  height: 19.5em;
   justify-content: center;
   margin-top: 25vh;
+}
+
+.txt {
+  display: flex;
 }
