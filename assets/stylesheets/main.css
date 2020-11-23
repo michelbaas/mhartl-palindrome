@@ -1,4 +1,9 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
+body {
+  height: 100vh;
+}
 
 h1 {
   align-self: center;
@@ -10,7 +15,7 @@ h1 {
 
 .container {
   display: flex;
-  align-items: center;
+  align-content: center;
   justify-content: center;
 }
 
